@@ -10,8 +10,6 @@ Route::get('/profile-image', function () {
         base_path('images/profil_cv.jpg'),
         base_path('images/profile_cv.jpg'),
         base_path('images/profile.jpg'),
-        'c:/xampp/htdocs/portofolio_NR/public/images/profil_cv.jpg',
-        'c:/xampp/htdocs/portofolio_NR/images/profil_cv.jpg',
     ];
 
     foreach ($possiblePaths as $path) {
@@ -35,8 +33,6 @@ Route::get('/', function () {
         base_path('images/profil_cv.jpg'),
         base_path('images/profile_cv.jpg'),
         base_path('images/profile.jpg'),
-        'c:/xampp/htdocs/portofolio_NR/public/images/profil_cv.jpg',
-        'c:/xampp/htdocs/portofolio_NR/images/profil_cv.jpg',
     ];
 
     $profileImg = '';
